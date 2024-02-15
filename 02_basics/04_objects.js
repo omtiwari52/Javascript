@@ -1,5 +1,5 @@
-// const tinderUser = new Object()
-const tinderUser = {}
+// const tinderUser = new Object() // Singleton object
+const tinderUser = {}  // Non - Singleton object
 
 tinderUser.id = "123abc"
 tinderUser.name = "Sammy"
@@ -79,3 +79,7 @@ console.log(instructor);
     {},
     {}
 ]
+
+
+// Curly Braces  k andr object likha hai 
+// mtlb object ki destructuring kii gyiii hai
